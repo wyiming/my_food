@@ -1,0 +1,91 @@
+.about_out{
+    width: 100%;
+    position: relative;
+    background: #fff;
+}
+.about_return{
+    font-size: 0.5rem;
+    color: #666;
+    text-decoration: none;
+    position: absolute;
+    left: 0.2rem;
+    top: 0rem;
+}
+.about_us{
+    float: left;
+    font-size:0.3rem;
+    width: 100%;
+    height: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    border-bottom: 0.01rem solid #cacaca;
+}
+.honey{
+    margin-left: 35%;
+    margin-top: 0.3rem;
+    width: 2rem;
+    height: 2rem;
+}
+.like{
+    font-size:0.3rem;
+    width: 100%;
+    height: 0.7rem;
+    text-align: center;
+    line-height: 0.7rem;
+    letter-spacing: 0.01rem;
+}
+.about_weixin{
+    width: 100%;
+    height: 0.8rem;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+
+}
+.about_weixin img{
+    margin-left: 1.8rem;
+    width: 0.7rem;
+    float: left;
+}
+.about_weixin div{
+    float: right;
+    font-size: 0.25rem;
+    line-height: 0.7rem;
+    margin-right: 1.6rem;
+    /* font-weight: bold; */
+}
+.about_bottom{
+    width: 100%;
+    height:3rem;
+    background: #ececec;
+}
+.beijing{
+    height: 0.2rem;
+    font-size: 0.25rem;
+    text-align: center;
+    line-height: 0.2rem;
+    padding-top: 0.5rem;
+}
+.copy{
+    height: 0.08rem;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.08rem;
+    color: #9c9a9c;
+    margin-top: 0.25rem;
+}
+.icp{
+    height: 0.08rem;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.08rem;
+    color: #9c9a9c;
+    margin-top: 0.5rem;
+}
+.icp1{
+    height: 0.08rem;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.08rem;
+    color: #9c9a9c;
+    margin-top: 0.3rem;
+}

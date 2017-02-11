@@ -1,0 +1,165 @@
+/*头部*/
+.phone-information{
+    width:100%;
+    height:2.70rem;
+    background:#ffd600;
+    position: fixed;
+    z-index: 20;
+    padding: 0;
+}
+/*主体*/
+.my-message{
+    padding-top:2.7rem;
+}
+.self{
+    width: 100%;
+    height:2rem;
+}
+.self-information{
+    padding-left:0.31rem;
+    padding-top:0.41rem;
+    font-size:0.21rem;
+    color:#fff;
+}
+.head-portrait{
+    width:1.18rem;
+    height:1.18rem;
+    float: left;
+    background:url("../../img2/my-icon.jpg") no-repeat 0 0;
+    background-size:100% 100%;
+
+}
+.phones{
+    float: left;
+    padding-left: 0.31rem;
+    padding-top: 0.16rem;
+}
+.self-phone{
+    width:1.67rem;
+    height:0.58rem;
+    background:url("../../img2/my-icon1.png") no-repeat 0 0;
+    background-size:100% 100%;
+    margin-top:0.17rem;
+    margin-left:-0.1rem;
+    line-height:0.58rem;
+    color:#e64f1a;
+    text-align: center;
+}
+.self-icons{
+    width:0.22rem;
+    height:0.39rem;
+    background:url("../../img2/my-icon2.png") no-repeat 0 0;
+    background-size:100% 100%;
+    float: right;
+    margin-right:0.4rem;
+    margin-top:-1.3rem;
+}
+/*收藏*/
+.collect>a{
+    display: block;
+    width:50%;
+    height:0.7rem;
+    background:#f3c800;
+    font-size:0.22rem;
+    color:#fff;
+    padding-top:0.23rem;
+    box-sizing: border-box;
+    float: left;
+}
+.collect>a>li{
+    line-height:0.36rem;
+    border-right:0.02rem solid #fff;
+}
+.collect>a:nth-child(2) li{
+    border-right:none;
+}
+.collects{
+    width:0.36rem;
+    height:0.36rem;
+    margin-right:0.26rem;
+    margin-left:0.69rem;
+    margin-top:-0.02rem;
+    float: left;
+}
+/*个人信息*/
+.self-message{
+    width:100%;
+    height:1.39rem;
+    background: #fff;
+}
+.self-message>a{
+    display: block;
+    width:25%;
+    height:1.39rem;
+    float: left;
+    text-align: center;
+}
+.self-message>a>li{
+    padding-top:0.4rem;
+    font-size:0.22rem;
+    color: #333333;
+    width: 100%;
+}
+.messages{
+    width:0.64rem;
+    height:0.62rem;
+    margin:0 auto;
+}
+.messages img{
+    width: 100%;
+    height: 100%;
+}
+/*详细信息*/
+.detailed-information{
+    width:100%;
+    height:4.04rem;
+    margin-top:0.2rem;
+}
+.information{
+    width:100%;
+    height:2.01rem;
+    background:#fff;
+    border-bottom:0.02rem solid #efefef;
+}
+.information img{
+    width: 100%;
+    height: 100%;
+}
+.information>a{
+    display: block;
+    width:25%;
+    height:2.01rem;
+    text-align: center;
+    float: left;
+}
+.information>a>li{
+    font-size:0.23rem;
+    color:#343434;
+    padding-top:0.62rem;
+    width: 100%;
+}
+.informations{
+    width:0.9rem;
+    height:0.75rem;
+    margin:0 auto;
+}
+.exit{
+    width: 100%;
+    text-align: center;
+}
+.exit_tiao{
+    width: 100%;
+    height: 0.5rem;
+    background: #ddd;
+}
+.exit_btn{
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 0.3rem;
+}
+.exit_tiao1{
+    width: 100%;
+    height: 1rem;
+    background: #dddddd;
+}

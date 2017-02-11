@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <title>我厨</title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/swiper-3.4.0.min.css">
+    <script>
+        var html = document.querySelector("html");
+        var rem = html.offsetWidth / 6.4;
+        html.style.fontSize = rem + "px";
+    </script>
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-route.min.js"></script>
+    <script src="node_modules/angular-css/angular-css.min.js"></script>
+    <script src="js/iscroll.js"></script>
+</head>
+<body  ng-controller="indexCtrl" style="background: none;">
+<div class="home_wrap">
+    <div ng-view></div>
+    <ul class="list">
+        <li><div><img src="img3/tab-icon0.png"/></div><a href="#/">首页</a></li>
+        <li><div><img src="img3/tab-icon1.png"/></div><a href="#/market">分类</a></li>
+        <li><div><img src="img3/tab-icon3.png"/></div><a href="#/shopCar">购物车</a></li>
+        <li><div><img src="img3/tab-icon4.png"/></div><a href="#/mine">我的</a></li>
+    </ul>
+    <div class="buy_num"></div>
+</div>
+    <script src="js/app.js"></script>
+    <script src="js/route.js"></script>
+    <script src="js/directive.js"></script>
+    <script src="js/swiper-3.4.0.min.js"></script>
+    <script src="home/js/home.js"></script>
+    <script src="super_market/js/market.js"></script>
+    <script src="mine/js/mine.js"></script>
+    <script src="shop_car/js/shop.js"></script>
+    <script src="mine/js/integral_exchange.js"></script>
+    <script src="js/lazyload.js"></script>
+</body>
+</html>

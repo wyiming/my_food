@@ -1,0 +1,92 @@
+{
+    "items": [
+        {
+            "imgUrl": "http://img.i-kitchen.cn/upload/dcd7078e-871e-421b-a109-83a0b8aaa1e9.jpg",
+            "type": "2",
+            "source": "57a28def-23ce-43b2-88de-979d3180fb36",
+            "pos": 1,
+            "$$hashKey": "object:8758",
+            "goodsName": "土豆（500g以上）",
+            "price": 2.59,
+            "unit": "500g",
+            "marketPrice": 4.5,
+            "preSale": 0,
+            "currentDate": 1486536075,
+            "deadLineDate": null
+        },
+        {
+            "imgUrl": "http://img.i-kitchen.cn/upload/024fc9de-c5c8-4652-a3ed-87a25be420a8.jpg",
+            "type": "2",
+            "source": "72bd3cc7-3dcd-4287-8a3d-c03d5665feb9",
+            "pos": 2,
+            "$$hashKey": "object:8768",
+            "goodsName": "鸿轩农业土鸡蛋10枚425g",
+            "price": 16.9,
+            "unit": "10枚",
+            "marketPrice": 16.9,
+            "preSale": 0,
+            "currentDate": 1486536075,
+            "deadLineDate": null
+        },
+        {
+            "imgUrl": "http://img.i-kitchen.cn/upload/11643a6d-0a37-4742-97cb-1e79f0fa0583.jpg",
+            "type": "2",
+            "source": "7a76ba9d-8494-4747-b18f-d5917915b8cc",
+            "pos": 3,
+            "$$hashKey": "object:8778",
+            "goodsName": "中粮家佳康小排400g",
+            "price": 19.9,
+            "unit": "400g",
+            "marketPrice": 24.8,
+            "preSale": 0,
+            "currentDate": 1486536075,
+            "deadLineDate": null
+        },
+        {
+            "imgUrl": "http://img.i-kitchen.cn/upload/4276eaff-ba39-4dc5-ac96-37f4b826ba8d.jpg",
+            "type": "2",
+            "source": "e623a4c6-00ae-47d9-8460-61788368b619",
+            "pos": 4,
+            "$$hashKey": "object:8788",
+            "goodsName": "进口香蕉6根",
+            "price": 10.9,
+            "unit": "6个",
+            "marketPrice": 14.9,
+            "preSale": 0,
+            "currentDate": 1486536075,
+            "deadLineDate": null
+        },
+        {
+            "imgUrl": "http://img.i-kitchen.cn/upload/0db4cc6e-b830-41c6-8ff0-81b45b2273cf.jpg",
+            "type": "2",
+            "source": "27f28e3f-a073-4006-b6f9-2350049df0b7",
+            "pos": 5,
+            "$$hashKey": "object:8808",
+            "goodsName": "明治保加利亚顺滑柔和原味酸奶400g",
+            "price": 12.9,
+            "unit": "400g",
+            "marketPrice": 12.9,
+            "preSale": 0,
+            "currentDate": 1486536075,
+            "deadLineDate": null
+        },
+        {
+            "imgUrl": "http://img.i-kitchen.cn/upload/7e63e6a8-79f4-4123-91ad-c1a2271a14ee.jpg",
+            "type": "2",
+            "source": "6038e3a6-78db-4fa4-ae09-6d95ef8bf6d4",
+            "pos": 6,
+            "$$hashKey": "object:8798",
+            "goodsName": "雨润盐水鸭450g",
+            "price": 16,
+            "unit": "450g",
+            "marketPrice": 16,
+            "preSale": 0,
+            "currentDate": 1486536075,
+            "deadLineDate": null
+        }
+    ],
+    "templateType": "7",
+    "$$hashKey": "object:8349",
+    "sortIndex": 10
+}
+    

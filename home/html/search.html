@@ -1,0 +1,41 @@
+<div class="about_us" style="height: 1rem;background: #f7f7f7;line-height: 1rem;">
+    <a href="#/home" class="about_return" style="top: 0rem"><</a>
+    <img src="img3/ico_search1.png" class="find_img"/>
+    <input type="text"  placeholder="&nbsp;&nbsp;&nbsp;&nbsp;请输入商品名称" class="search"/> 搜索
+</div>
+<div class="hot_search">
+    <div class="hot_msg">热门搜索</div>
+    <ul class="history_hot search_list">
+        <!--<li ng-repeat="i in day">{{ i.name }}</li>-->
+        <li>大闸蟹</li>
+        <li>水</li>
+        <li>中秋月饼</li>
+        <li>酸奶</li>
+        <li>啤酒</li>
+        <li>西瓜</li>
+        <li>大荔冬枣</li>
+        <li>贝尔蛋糕</li>
+        <li>月盛斋</li>
+    </ul>
+    <div class="history_search">历史记录</div>
+    <ul class="history_list search_list">
+        <li>大闸蟹</li>
+    </ul>
+    <div class="clear_history">
+        清空历史
+    </div>
+</div>
+<script>
+    $(".list").remove();
+    $(".clear_history").click(function(){
+        $(".histroy_list").remove();
+        window.location.reload()
+    })
+    app.controller("homeCtrl",function(){
+        var path1 = "http://www.vrserver.applinzi.com/aixianfeng/apicategory.php?category=优选水果";
+        $http.get(path1).success(function(json){
+            $scope.day = json.data
+            console.log(json.data)
+        })
+    })
+</script>

@@ -1,0 +1,306 @@
+{
+    "hasError": false,
+    "errorCode": "200",
+    "statusCode": "200",
+    "errorMessage": "",
+    "data": {
+        "acts": [
+            {
+                "items": [
+                    {
+                        "imgUrl": "http://img.i-kitchen.cn/upload/e0ee63ba-eb1c-46b1-8194-62938da242f7.jpg",
+                        "type": "1",
+                        "source": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=20",
+                        "pos": 1,
+                        "$$hashKey": "object:8181"
+                    }
+                ],
+                "templateType": "4",
+                "$$hashKey": "object:8129",
+                "sortIndex": 2
+            },
+            {
+                "items": [
+                    {
+                        "imgUrl": "http://img.i-kitchen.cn/upload/145bd1fd-72a1-485f-bf84-9f7f412e0974.jpg",
+                        "type": "11",
+                        "source": "",
+                        "pos": 1,
+                        "$$hashKey": "object:24778"
+                    }
+                ],
+                "templateType": "4",
+                "$$hashKey": "object:24765",
+                "sortIndex": 2
+            },
+            {
+                "items": [
+                    {
+                        "imgUrl": "http://img.i-kitchen.cn/upload/0f12e8e1-5776-43cb-833a-732100d7fcfd.jpg",
+                        "type": "1",
+                        "source": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=42",
+                        "pos": 1,
+                        "$$hashKey": "object:5960"
+                    }
+                ],
+                "templateType": "4",
+                "$$hashKey": "object:5938",
+                "sortIndex": 2
+            },
+            {
+                "items": [
+                    {
+                        "imgUrl": "http://img.i-kitchen.cn/upload/041386bb-34f7-4d8a-8591-0f5ff6bc8cb0.jpg",
+                        "type": "1",
+                        "source": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=41",
+                        "pos": 1,
+                        "$$hashKey": "object:5974"
+                    }
+                ],
+                "templateType": "4",
+                "$$hashKey": "object:5947",
+                "sortIndex": 2
+            },
+            {
+                "items": [
+                    {
+                        "imgUrl": "http://img.i-kitchen.cn/upload/f9282a15-9db2-411d-ae32-37030bad2e81.jpg",
+                        "type": "1",
+                        "source": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=40",
+                        "pos": 1,
+                        "$$hashKey": "object:8201"
+                    }
+                ],
+                "templateType": "4",
+                "$$hashKey": "object:8138",
+                "sortIndex": 3
+            },
+            {
+                "items": [
+                    {
+                        "imgUrl": "http://img.i-kitchen.cn/upload/907a1e84-7995-4fee-9979-03775fbb850d.jpg",
+                        "type": "1",
+                        "source": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=38",
+                        "pos": 1,
+                        "$$hashKey": "object:3105"
+                    }
+                ],
+                "templateType": "4",
+                "$$hashKey": "object:3088",
+                "sortIndex": 3
+            },
+            {
+                "items": [
+                    {
+                        "imgUrl": "http://img.i-kitchen.cn/upload/f58241ff-efbf-4a04-872d-7f3770f56a78.jpg",
+                        "type": "4",
+                        "source": "",
+                        "pos": 1,
+                        "$$hashKey": "object:16845"
+                    }
+                ],
+                "templateType": "5",
+                "$$hashKey": "object:16829",
+                "sortIndex": 3
+            },
+            {
+                "items": [
+                    {
+                        "imgUrl": "http://img.i-kitchen.cn/upload/9c264ed7-6d02-4e0c-a42f-74971b3da4eb.jpg",
+                        "type": "2",
+                        "source": "838d73a0-ae01-4ed5-966e-d357eb4b8490",
+                        "pos": 1,
+                        "$$hashKey": "object:12732"
+                    }
+                ],
+                "templateType": "4",
+                "$$hashKey": "object:12719",
+                "sortIndex": 3
+            },
+            {
+                "items": [
+                    {
+                        "imgUrl": "http://img.i-kitchen.cn/upload/d9281209-7762-4a96-b27e-d7c4f5b4b58f.jpg",
+                        "type": "9",
+                        "source": "63:初冬食材自选套餐",
+                        "pos": 1,
+                        "$$hashKey": "object:19261"
+                    }
+                ],
+                "templateType": "4",
+                "$$hashKey": "object:19235",
+                "sortIndex": 5
+            },
+            {
+                "items": [
+                    {
+                        "imgUrl": "http://img.i-kitchen.cn/upload/95a3ddd6-4a61-415f-b91c-6f0d84c24e2f.jpg",
+                        "type": "9",
+                        "source": "64:初冬食材自选套餐",
+                        "pos": 1,
+                        "$$hashKey": "object:19274"
+                    }
+                ],
+                "templateType": "4",
+                "$$hashKey": "object:19244",
+                "sortIndex": 5
+            },
+            {
+                "items": [
+                    {
+                        "imgUrl": "http://img.i-kitchen.cn/upload/2947c656-9424-4545-9287-ae8df68636af.jpg",
+                        "type": "9",
+                        "source": "61:初冬食材自选套餐",
+                        "pos": 1,
+                        "$$hashKey": "object:8245"
+                    }
+                ],
+                "templateType": "4",
+                "$$hashKey": "object:8165",
+                "sortIndex": 5
+            },
+            {
+                "items": [
+                    {
+                        "imgUrl": "http://img.i-kitchen.cn/upload/e8726fbf-3eb9-4122-a414-e99997fc775e.jpg",
+                        "type": "9",
+                        "source": "65:初冬食材自选套餐",
+                        "pos": 1,
+                        "$$hashKey": "object:38928"
+                    }
+                ],
+                "templateType": "4",
+                "$$hashKey": "object:38912",
+                "sortIndex": 5,
+                "isChecked": 0
+            },
+            {
+                "items": [
+                    {
+                        "imgUrl": "http://img.i-kitchen.cn/upload/288c1297-b32d-434a-b9eb-8252b3153708.jpg",
+                        "type": "9",
+                        "source": "66:初冬食材自选套餐",
+                        "pos": 1,
+                        "$$hashKey": "object:9588"
+                    }
+                ],
+                "templateType": "4",
+                "$$hashKey": "object:9559",
+                "sortIndex": 5
+            },
+            {
+                "items": [
+                    {
+                        "imgUrl": "http://img.i-kitchen.cn/upload/7e254340-47bf-42de-b9a5-620c6a4a52c1.jpg",
+                        "type": "9",
+                        "source": "67:初冬食材自选套餐",
+                        "pos": 1,
+                        "$$hashKey": "object:9601"
+                    }
+                ],
+                "templateType": "4",
+                "$$hashKey": "object:9568",
+                "sortIndex": 5
+            },
+            {
+                "items": [
+                    {
+                        "imgUrl": "http://img.i-kitchen.cn/upload/ddbfdcb0-87d0-42dc-9f7e-6a0f38ec1689.jpg",
+                        "type": "4",
+                        "source": "",
+                        "pos": 1,
+                        "$$hashKey": "object:8508"
+                    }
+                ],
+                "templateType": "5",
+                "$$hashKey": "object:8286",
+                "sortIndex": 8
+            },
+            {
+                "items": [
+                    {
+                        "imgUrl": "http://img.i-kitchen.cn/upload/8fc045e6-918d-4ee7-9a63-861dd7a74977.jpg",
+                        "type": "1",
+                        "source": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=13",
+                        "pos": 1,
+                        "$$hashKey": "object:8605"
+                    }
+                ],
+                "templateType": "4",
+                "$$hashKey": "object:8295",
+                "sortIndex": 9
+            },
+            {
+                "items": [
+                    {
+                        "imgUrl": "http://img.i-kitchen.cn/upload/d2b8cd86-884e-47a7-b18a-aa3d62388cf8.jpg",
+                        "type": "5",
+                        "source": "http://wmall.wochu.cn/h5/groupbuy/groupList.html?",
+                        "pos": 1,
+                        "$$hashKey": "object:8629"
+                    }
+                ],
+                "templateType": "4",
+                "$$hashKey": "object:8304",
+                "sortIndex": 9
+            },
+            {
+                "items": [
+                    {
+                        "imgUrl": "http://img.i-kitchen.cn/upload/f6e34f2c-2667-4b06-a577-1f7433a22a5a.jpg",
+                        "type": "5",
+                        "source": "http://wmall.wochu.cn/h5/groupbuy/detail.html?HID=10ab468b4b3cf36795ef414b4377fd6eb0eb9a95e8b085e4025eae2f0d76a6a6",
+                        "pos": 1,
+                        "$$hashKey": "object:8651"
+                    }
+                ],
+                "templateType": "4",
+                "$$hashKey": "object:8313",
+                "sortIndex": 9
+            },
+            {
+                "items": [
+                    {
+                        "imgUrl": "http://img.i-kitchen.cn/upload/f328abe1-3574-4fa9-923c-79a74d4cb502.jpg",
+                        "type": "5",
+                        "source": "http://wmall.wochu.cn/h5/groupbuy/detail.html?HID=9b407c097df30c508a77f20f5e64491e5fd2c06f558321eff612bbbe455f6fbd",
+                        "pos": 1,
+                        "$$hashKey": "object:8676"
+                    }
+                ],
+                "templateType": "4",
+                "$$hashKey": "object:8322",
+                "sortIndex": 9
+            },
+            {
+                "items": [
+                    {
+                        "imgUrl": "http://img.i-kitchen.cn/upload/e0aefc21-2ab2-4ac7-b3d2-602d6738129f.jpg",
+                        "type": "4",
+                        "source": "",
+                        "pos": 1,
+                        "$$hashKey": "object:8715"
+                    }
+                ],
+                "templateType": "5",
+                "$$hashKey": "object:8340",
+                "sortIndex": 9
+            },
+            {
+                "items": [
+                    {
+                        "imgUrl": "http://img.i-kitchen.cn/upload/b51f91b5-ca7e-4140-9429-fdf11a31ab0f.jpg",
+                        "type": "1",
+                        "source": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=25",
+                        "pos": 1,
+                        "$$hashKey": "object:8701"
+                    }
+                ],
+                "templateType": "4",
+                "$$hashKey": "object:8331",
+                "sortIndex": 10
+            }
+
+        ]
+    }
+}

@@ -1,0 +1,164 @@
+{
+    "hasError": false,
+    "errorCode": "200",
+    "statusCode": "200",
+    "errorMessage": "",
+    "data": [
+        {
+            "id": 1,
+            "name": "我厨精选",
+            "imgUrl": null,
+            "url": null,
+            "urlType": null,
+            "isShowTotal": null,
+            "sortIndex": 1,
+            "parentId": null,
+            "children": [
+                {
+                    "id": 3,
+                    "name": "本周特惠",
+                    "imgUrl": "http://img.i-kitchen.cn/upload/fa3c5da8-006c-4bf3-a263-562b318a3fd0.jpg",
+                    "url": "本周特惠",
+                    "urlType": "3",
+                    "isShowTotal": "1",
+                    "sortIndex": 1,
+                    "parentId": 1,
+                    "children": []
+                },
+                {
+                    "id": 4,
+                    "name": "本周新菜",
+                    "imgUrl": "http://img.i-kitchen.cn/upload/e4d69e65-b2d7-49ae-86ad-c901bde185c6.jpg",
+                    "url": "本周新菜",
+                    "urlType": "3",
+                    "isShowTotal": "1",
+                    "sortIndex": 2,
+                    "parentId": 1,
+                    "children": []
+                },
+                {
+                    "id": 5,
+                    "name": "时令蔬果",
+                    "imgUrl": "http://img.i-kitchen.cn/upload/ff4dfbc8-edb5-4f2f-996c-2daebb8ba79f.jpg",
+                    "url": "时令蔬果",
+                    "urlType": "3",
+                    "isShowTotal": "1",
+                    "sortIndex": 3,
+                    "parentId": 1,
+                    "children": []
+                },
+                {
+                    "id": 6,
+                    "name": "新鲜乳品",
+                    "imgUrl": "http://img.i-kitchen.cn/upload/4b7934db-f9df-41b8-a569-05ee3f3266a3.jpg",
+                    "url": "新鲜乳品",
+                    "urlType": "3",
+                    "isShowTotal": "1",
+                    "sortIndex": 4,
+                    "parentId": 1,
+                    "children": []
+                },
+                {
+                    "id": 7,
+                    "name": "新鲜活杀鱼",
+                    "imgUrl": "http://img.i-kitchen.cn/upload/68c477e1-26b2-46fd-9f0a-65a86f183304.jpg",
+                    "url": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=2",
+                    "urlType": "1",
+                    "isShowTotal": null,
+                    "sortIndex": 5,
+                    "parentId": 1,
+                    "children": []
+                },
+                {
+                    "id": 8,
+                    "name": "冷鲜肉禽",
+                    "imgUrl": "http://img.i-kitchen.cn/upload/571d2d10-65b1-4f21-899a-59b44266f8f7.jpg",
+                    "url": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=30",
+                    "urlType": "1",
+                    "isShowTotal": null,
+                    "sortIndex": 6,
+                    "parentId": 1,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "品牌专区",
+            "imgUrl": null,
+            "url": null,
+            "urlType": null,
+            "isShowTotal": null,
+            "sortIndex": 2,
+            "parentId": null,
+            "children": [
+                {
+                    "id": 9,
+                    "name": "我厨优选",
+                    "imgUrl": "http://img.i-kitchen.cn/upload/4d09e626-b733-4d4f-ad70-33f884de97d2.jpg",
+                    "url": "品牌专区-我厨",
+                    "urlType": "3",
+                    "isShowTotal": "1",
+                    "sortIndex": 1,
+                    "parentId": 2,
+                    "children": []
+                },
+                {
+                    "id": 10,
+                    "name": "明治专区",
+                    "imgUrl": "http://img.i-kitchen.cn/upload/504720e2-444a-4667-842e-1a6eb3545fc9.jpg",
+                    "url": "品牌专区-明治",
+                    "urlType": "3",
+                    "isShowTotal": "1",
+                    "sortIndex": 2,
+                    "parentId": 2,
+                    "children": []
+                },
+                {
+                    "id": 11,
+                    "name": "荷美尔",
+                    "imgUrl": "http://img.i-kitchen.cn/upload/c5a42e52-6095-4071-a540-d5a993f87237.jpg",
+                    "url": "品牌-荷美尔",
+                    "urlType": "3",
+                    "isShowTotal": "1",
+                    "sortIndex": 3,
+                    "parentId": 2,
+                    "children": []
+                },
+                {
+                    "id": 12,
+                    "name": "温氏专区",
+                    "imgUrl": "http://img.i-kitchen.cn/upload/2a2769d6-5217-433a-916b-d437558d1edc.jpg",
+                    "url": "品牌-温氏",
+                    "urlType": "3",
+                    "isShowTotal": "1",
+                    "sortIndex": 4,
+                    "parentId": 2,
+                    "children": []
+                },
+                {
+                    "id": 13,
+                    "name": "高笛美食专区",
+                    "imgUrl": "http://img.i-kitchen.cn/upload/067778ac-73bb-4401-a57b-7f442a695969.jpg",
+                    "url": "品牌-高笛美",
+                    "urlType": "3",
+                    "isShowTotal": "1",
+                    "sortIndex": 5,
+                    "parentId": 2,
+                    "children": []
+                },
+                {
+                    "id": 14,
+                    "name": "三全专区",
+                    "imgUrl": "http://img.i-kitchen.cn/upload/c26b9280-039b-428f-b16e-4036b34a9ec3.jpg",
+                    "url": "品牌-三全",
+                    "urlType": "3",
+                    "isShowTotal": "1",
+                    "sortIndex": 6,
+                    "parentId": 2,
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

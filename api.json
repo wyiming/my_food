@@ -1,0 +1,112 @@
+{
+    "hasError": false,
+    "errorCode": "200",
+    "statusCode": "200",
+    "errorMessage": "",
+    "data": {
+        "carousel": [
+            {
+                "title": "蔬菜过年不涨价",
+                "picUrl": "http://img.i-kitchen.cn/upload/39e875cb-b1aa-40f1-a37e-e769584f55f0.jpg",
+                "enabled": 1,
+                "sortIndex": 1,
+                "action": {
+                    "type": 2,
+                    "data": {
+                        "type": 1,
+                        "target": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=33"
+                    }
+                }
+            },
+            {
+                "title": "一件包邮",
+                "picUrl": "http://img.i-kitchen.cn/upload/bd951b71-c4ea-43dc-bedb-883e42b7887d.jpg",
+                "enabled": 1,
+                "sortIndex": 1,
+                "action": {
+                    "type": 2,
+                    "data": {
+                        "type": 1,
+                        "target": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=28"
+                    }
+                }
+            },
+            {
+                "title": "腌笃鲜",
+                "picUrl": "http://img.i-kitchen.cn/upload/47e4ef54-ddeb-499e-9bda-1599be478d44.jpg",
+                "enabled": 1,
+                "sortIndex": 2,
+                "action": {
+                    "type": 2,
+                    "data": {
+                        "type": 1,
+                        "target": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=43"
+                    }
+                }
+            },
+            {
+                "title": "大叔牛排",
+                "picUrl": "http://img.i-kitchen.cn/upload/1d50c1ef-2c74-4372-bb7d-077046051018.jpg",
+                "enabled": 1,
+                "sortIndex": 2,
+                "action": {
+                    "type": 2,
+                    "data": {
+                        "type": 1,
+                        "target": "http://wmall.wochu.cn/h5/activity/html/sexyElegance.html"
+                    }
+                }
+            },
+            {
+                "title": "本周新菜",
+                "picUrl": "http://img.i-kitchen.cn/upload/1559f00d-a864-4d9d-b8c2-82d3444fc0ef.jpg",
+                "enabled": 1,
+                "sortIndex": 3,
+                "action": {
+                    "type": 2,
+                    "data": {
+                        "type": 1,
+                        "target": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=31"
+                    }
+                }
+            }
+        ],
+        "recommendedContent": [
+            {
+                "items": [
+                    {
+                        "imgUrl": "http://img.i-kitchen.cn/upload/29e25e42-0802-4c1c-8f56-f0091f3cb124.jpg",
+                        "type": "8",
+                        "source": "",
+                        "pos": 1,
+                        "$$hashKey": "object:52085"
+                    },
+                    {
+                        "imgUrl": "http://img.i-kitchen.cn/upload/50c61079-d940-4a72-ba7f-6d67ce3392b7.jpg",
+                        "type": "5",
+                        "source": "http://wmall.wochu.cn/h5/groupbuy/groupList.html?",
+                        "pos": 2,
+                        "$$hashKey": "object:52095"
+                    },
+                    {
+                        "imgUrl": "http://img.i-kitchen.cn/upload/49165562-9bf5-4668-a6cd-76f084e313a6.jpg",
+                        "type": "12",
+                        "source": "",
+                        "pos": 3,
+                        "$$hashKey": "object:52105"
+                    },
+                    {
+                        "imgUrl": "http://img.i-kitchen.cn/upload/80102d1d-5fb5-4e28-92f7-dcbe7ccadc14.jpg",
+                        "type": "11",
+                        "source": "",
+                        "pos": 4,
+                        "$$hashKey": "object:52115"
+                    }
+                ],
+                "templateType": "8",
+                "$$hashKey": "object:52064",
+                "sortIndex": 1
+            }
+        ]
+    }
+}

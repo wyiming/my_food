@@ -1,0 +1,65 @@
+<ul class="list" style="z-index: 25">
+    <li><div><img src="img3/tab-icon0.png"/></div><a href="#/">首页</a></li>
+    <li><div><img src="img3/tab-icon1.png"/></div><a href="#/market">闪送超市</a></li>
+    <li><div><img src="img3/tab-icons-after3.png"/></div><a href="#/shopCar">购物车</a></li>
+    <li><div><img src="img3/tab-icon4.png"/></div><a href="#/mine">我的</a></li>
+</ul>
+<header><h4>购物车</h4></header>
+<div class="wrap">
+    <div class="null">
+        <img src="img1/icon_localtion.png"/>
+        <div style="line-height: 0.8rem">亲,购物车空空的耶~</div>
+        <a href="#/market"><div class="btn">去逛逛</div></a>
+    </div>
+</div>
+<div class="wrap1">
+    <div class="shop_main">
+        <div class="shop_main2">
+            <div class="shop_head_addr">
+                	我厨需要您的精确坐标
+            </div>
+            <div class="shop_main_info">
+                <p><span></span>闪送超市</p>
+                <p>￥0起送,22:00前满￥30减免运费 22:00后满￥69减免运费</p>
+            </div>
+            <div class="shop_time">
+                <p class="shop_com_p"><span>收货时间</span>一小时送达</p>
+                <p><img src="img1/tap.png" alt="">可预订</p>
+            </div>
+            <div class="shop_remark">
+                <p class="shop_com_p"><span>收货备注</span><input type="text" placeholder="可输入100字以内特殊要求内容" style="font-size: 0.25rem;"></p>
+            </div>
+            <div class="shop_order">
+                <ul class="shop_order_ul">
+                    <li ng-repeat="list in data" data_id="{{list._id}}" class="shop_list">
+                        <span class="shop_order_one"><input one-check type="checkbox" checked  dataBol="{{list.bol}}" dataid="{{list._id}}"/></span>
+                        <dl>
+                            <dd><img src="{{list.img}}"></dd>
+                            <dt>
+                                <p class="shop_order_title">{{list.name}}</p>
+                                <p class="shop_order_one_money">{{list.price}}</p>
+                            <div my-minus class="order_mul">
+                                <img src="img2/jian.png">
+                                </div><div class="order_num">{{list.num}}</div>
+                            <div add-num class="order_add">
+                                <img src="img2/c1.png">
+                                </div>
+                            </dt>
+                            </dl>
+                        <div class="rmb">¥</div>
+                    </li>
+                </ul>
+                <div class="shop_order_count">
+                    <div class="count_left">
+                    <span class="count_all">全选<input all-orcan type="checkbox" checked/></span>
+                    <p><span class="count_money">{{all_price.toFixed(2)}}</span>共：<span class="RMB">¥</span></p>
+                    </div>
+                    <button>选好了</button>
+                </div>
+                <div class="blank_bot">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

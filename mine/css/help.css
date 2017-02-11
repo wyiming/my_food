@@ -1,0 +1,82 @@
+.view{
+    height: 1.3rem;
+    width: 100%;
+    float: left;
+    background: #fff;
+    border-bottom: 0.01rem solid #9c9a9c;
+}
+.view li{
+    font-size: 0.3rem;
+    float: left;
+}
+.view img{
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+    margin-right: 0.4rem;
+    width: 1rem;
+}
+.view_txt{
+    line-height: 0.7rem;
+    width: 3.8rem;
+    font-size: 0.25rem;
+}
+.view_text{
+    color: #9c9a9c;
+}
+.view_phone{
+    color: deepskyblue;
+    font-weight: bold;
+    font-size: 0.26rem;
+}
+.help_next{
+    margin-top: 0.4rem;
+    margin-right: 0.3rem;
+}
+.help_next a{
+    font-size: 0.36rem;
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

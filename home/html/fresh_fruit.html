@@ -1,0 +1,82 @@
+<div class="about_us" style="height: 1rem;background: #f7f7f7;line-height: 1rem;position: fixed;left: 0px;top: 0px;z-index: 15">
+    <a href="#/home" class="about_return"><</a>新鲜预定
+</div>
+<div class="tiao" style="margin-top: 1rem"></div>
+<ul class="fresh_list1 fresh_list">
+    <li>精选水果</li>
+    <li>直供蔬菜</li>
+    <li>水产海鲜</li>
+    <li>肉禽蛋</li>
+    <li>乳品烘焙</li>
+    <div class="fresh_slide1 fresh_slide"></div>
+</ul>
+<ul class="fresh_list2 fresh_list">
+    <li>熟食面点</li>
+    <li>粮油直供</li>
+    <li>酒水饮料</li>
+    <li>休闲零食</li>
+    <li>整箱购</li>
+    <div class="fresh_slide2 fresh_slide"></div>
+</ul>
+<div class="tiao"></div>
+<div class="fresh_title">
+    <div class="good_slider" style="margin-top: 0.15rem;margin-right: 0.3rem;"></div>
+    <span>精选水果</span>
+</div>
+<ul class="rec4 rec">
+    <li style="width: 100%;padding: 0rem">
+        <div class="neirong">
+            <div class="left"><img src="img2/0000094173_85400.jpg@200w_200h_90Q.jpg"/></div>
+            <div class="right">
+                <div class="msg_name">老坛酸菜</div>
+                <div style="font-size: 0.25rem;">300g</div>
+                <div class="msg_price">
+                    <span style="font-size: 0.3rem;color: #ff0000"><span style="font-size: 0.25rem">￥</span>4.5</span>
+                    <span style="font-size: 0.25rem;color:#666666;"><em>/原价：￥</em><span>5.5</span></span>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>
+<script>
+    $(".list").remove();
+    var freshInd;
+    var freshInd1;
+    $(".fresh_list1 li").each(function(i){
+        $(".fresh_list1 li").click(function(){
+            freshInd = $(".fresh_list1 li").index(this);
+            $(".fresh_list li").eq(i).css({
+                "color":"#898989"
+            })
+            $(".fresh_list li").eq(freshInd).css({
+                "color":"#000000"
+            })
+            $(".fresh_slide").eq(1).hide();
+            $(".fresh_slide").eq(0).show().css({
+                "left":20*freshInd+2+"%"
+            });
+        })
+    })
+    $(".fresh_list2 li").each(function(i){
+        $(".fresh_list2 li").click(function(){
+            freshInd1 = $(".fresh_list2 li").index(this);
+            $(".fresh_list2 li").eq(i).css({
+                "color":"#898989"
+            })
+            $(".fresh_list2 li").eq(freshInd1).css({
+                "color":"#000000"
+            })
+            $(".fresh_slide").eq(0).hide();
+            $(".fresh_slide").eq(1).show().css({
+                "left":20*freshInd1+2+"%"
+            });
+        })
+    })
+    app.controller("homeCtrl",function($scope,$http,$route) {
+        var path1 = "http://www.vrserver.applinzi.com/aixianfeng/apicategory.php?category=优选水果";
+        $http.get(path1).success(function (json) {
+            $scope.day = json.data
+            console.log(json.data)
+        })
+    })
+</script>

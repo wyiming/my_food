@@ -1,0 +1,291 @@
+.nav1{
+    width: 100%;
+    height: 1rem;
+    float: left;
+    background:#ffd700;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 15;
+}
+.nav_left1{
+    font-size: 0.2rem;
+    float: left;
+    width: 0.55rem;
+    height: 0.55rem;
+}
+.nav_left1 img{
+    margin-left: 0.08rem;
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-top: 0.1rem;
+}
+.nav_left1 span{
+    margin-top: 0.05rem;
+    display: block;
+    margin-left:0.03rem;
+}
+.nav_center1{
+    float: left;
+    line-height: 0.5rem;
+    font-size: 0.3rem;
+    margin-left: 1.5rem;
+    margin-top: 0.05rem;
+    padding: 0rem 0.2rem;
+    border-radius: 2rem;
+}
+.sanjiao1{
+    float: right;
+    margin-left: 0.02rem;
+}
+.sanjiao1 img{
+    width: 0.2rem;
+    height: 0.2rem;
+    margin-left: 0.03rem;
+}
+.nav_content1{
+    padding-top: 0.2rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
+.nav_right1{
+    float: right;
+    font-size: 0.2rem;
+    width: 0.6rem;
+    height: 0.6rem;
+}
+.nav_right1 img{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-left: 0.1rem;
+    margin-top: 0.1rem;
+}
+.nav_right1 span{
+    display: block;
+    letter-spacing: 0.1rem;
+}
+.out{
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin-top: .9rem;
+    font-size: 0.25rem;
+}
+.hot-sale{
+    float: left;
+    width: 24.6%;
+    position: fixed;
+}
+.special_list{
+    width: 100%;
+    background: #f7f7f7;
+    text-align: center;
+}
+.special_list li{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    width: 100%;
+}
+.special_list li:nth-child(1){
+    background: #ececec;
+}
+.slider{
+    width: 0.05rem;
+    height: 0.4rem;   
+    margin-top: 0.18rem;
+    float: left;
+    background: #78c652;
+    display: none;
+}
+.special_list li:nth-child(1) div{
+     display: block;
+ }
+.dd_sale{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 0.5rem;
+}
+.paihang{
+    position: fixed;
+    width: 76%;
+    left: 24%;
+    background: #f7f7f7;
+    z-index: 10;
+    font-size: .3rem;
+    z-index: 5;
+   top:0.87rem;
+}
+.all{
+    float: left;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    width: 33%;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+
+}
+.thing_msg{
+    width: 100%;
+    float: left;
+    border-bottom: 0.01rem solid #ccc;
+}
+.all_list{
+    width:73%;
+    overflow: hidden;
+    display: none;
+    font-size: .3rem;
+}
+.allList{
+    display: block;
+}
+.sale1{
+    width: 33%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    float: left;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+.price{
+    width: 33%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    float: left;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+.pic{
+    float: left;
+    width: 40%;
+}
+.pic img{
+    width: 100%;
+}
+.text{
+    float: left;
+    width: 60%;
+    margin-top: 2%;
+    position: relative;
+}
+.text div{
+    margin-top:3% ;
+}
+.type_one{
+    width: 0.7rem;
+    height: 0.3rem;
+    border: 0.02rem solid red;
+    box-sizing: border-box;
+    border-radius: 0.05rem;
+    text-align: center;
+    line-height: 0.3rem;
+    color: red;
+    font-size: .25rem;
+    padding-left: 0.05rem;
+    padding-right: 0.05rem;
+}
+.type_two{
+    display: block;
+    float: right;
+    background: #ff0000;
+    color: #ffffff;
+    font-size: .25rem;
+    padding-left: 0.05rem;
+    padding-right: 0.05rem;
+    margin-right: 0.8rem;
+    margin-top: 0.02rem;
+    border-radius: 0.05rem;
+}
+.money_new{
+    color: #ff3c00;
+    font-size: 0.2rem;
+}
+.money_old{
+    text-decoration: line-through;
+    color: #666666;
+    font-size: 0.2rem;
+}
+.img_one{
+    float: right;
+    margin-top: 0.1rem;
+    margin-right: 0.01rem;
+    width: 0.25rem;
+}
+.img_two{
+    width: 0.2rem;
+    float: right;
+    margin-top: 0.04rem;
+    margin-right: 0.03rem;
+}
+.number{
+    font-size: 0.20rem;
+    margin: 0rem 0.12rem;
+    line-height: 0.38rem;
+    float: left;
+}
+.num1{
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 50%;
+    border: 0.01rem solid red;
+    float: left;
+}
+.num2{
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 50%;
+    border: 0.01rem solid red;
+    float: left;
+}
+.numnum{
+    position: absolute;
+    right:0.3rem;
+    bottom: 0rem;
+}
+.RMB{
+    color: #ff0000;
+}
+#wrapper-nav{
+	position: absolute;
+    width: 1.6rem;
+    float: left;
+    left: 0;
+    color: #666;
+    font-size: .3rem;
+    top: .88rem;
+    bottom: 1.08rem;
+    overflow: auto;
+    background: #fff;
+}
+#wrapper{
+	position: absolute;
+    width: 4.3rem;
+    padding: 0 .2rem .2rem;
+    float: right;
+    left: 25%;
+    top: .9rem;
+    bottom: .8rem;
+    background: #f4f5f7;
+}
+.header{position:absolute;width:98%;height:.88rem;top:0;left:0;padding:0;margin:0;border-bottom:1px solid #e5e5e5;z-index:1;background:#fff}
+.search-ctl{width:5.8rem;height:.58rem;margin:.15rem .2rem;line-height:.58rem;background:#f1f2f6;border-radius:.28rem}
+.search-ctl img{width:.58rem;height:.58rem;float:left}
+.search-key{width:5rem;height:.58rem;padding:0;float:left;background:#f1f2f6;border:0}
+nav{position:absolute;width:1.6rem;float:left;left:0;color:#666;font-size:.3rem;top:.88rem;bottom:1.08rem;overflow:hidden;background:#fff}
+nav ul{width:100%;height:auto;overflow: hidden;}
+nav ul li{width:100%;height:.35rem;padding:.26rem 0;line-height:.43rem;text-align:center;border-bottom:1px solid #e6e6e6}
+nav ul li.on{background:#f4f5f7;color:#f96d16}
+nav ul li.on p{border-left:.1rem solid #f96d16}
+section{position:absolute;width:5.9rem;padding:0 .2rem .2rem;background:#f4f5f7;float:right;right:0;top:1.08rem;bottom:1.08rem;overflow:hidden}
+.class-item{width:96%;display:none;background: #ffffff}
+.class-item-on{display:block;width: 96%;background: #ffffff}
+.class-item .label{height:.5rem;color:#666;font-size:.26rem;line-height:.5rem}
+.class-item.classify ul,.class-item ul{width:96%;padding:.2rem .02rem .2rem .2rem;background:#fff;overflow: hidden;}
+.class-item ul li{width:1.1rem;margin-right:.18rem;height:2.2rem;text-align:center;float:left}
+.class-item ul li img{width: 100%;}
+.class-item ul li p{width:1.1rem;font-size:.24rem;color:#666;line-height:.62rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.item-top{width:96%;height:1.6rem;padding:.2rem .2rem 0;background:#fff;display:none}
+.item-top img{width:100%;height: 100%}
+.classify-li{display:none}

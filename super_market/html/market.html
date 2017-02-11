@@ -1,0 +1,90 @@
+<ul class="list" style="z-index: 25">
+    <li><div><img src="img3/tab-icon0.png"/></div><a href="#/">首页</a></li>
+    <li><div><img src="img3/tab-icons-after1.png"/></div><a href="#/market">分类</a></li>
+    <li><div><img src="img3/tab-icon3.png"/></div><a href="#/shopCar">购物车</a></li>
+    <li><div><img src="img3/tab-icon4.png"/></div><a href="#/mine">我的</a></li>
+</ul>
+<div class="header">
+	<div class="search-ctl"><img src="img/search-icon.png?v=4391f15992"> <input name="search" value="" id="search-key" class="search-key"></div>
+</div>
+    <nav id="wrapper-nav">
+    	<div id="scroller-nav">
+			<ul>
+				<li class="on" id="tj" tab-page><p>推荐</p></li>
+				<li id="648" tab-page><p>净菜</p></li>
+				<li id="691" tab-page><p>蔬菜</p></li>
+				<li id="726" tab-page><p>水果</p></li>
+				<li id="722" tab-page><p>肉类</p></li>
+				<li id="739" tab-page><p>禽蛋</p></li>
+				<li id="758" tab-page><p>水产</p></li>
+				<li id="812" tab-page><p>点心速食</p></li>
+				<li id="759" tab-page><p>乳饮西点</p></li>
+				<li id="806" tab-page><p>粮油副食</p></li>
+				<li id="1215" tab-page><p>休闲食品</p></li>
+			</ul>
+		</div>	
+    </nav>
+<section id="wrapper">
+	<div id="scroller">
+	<div class="class-item class-item-on tj" parentid="tj" item-id="1">
+		<p class="label">我厨精选</p>
+		<ul style="background: #fff;overflow: hidden;">
+			<li ng-repeat="item in data">
+                <a href="javascript:Classify.goHotList('本周特惠')">
+                    <img src="{{item.imgUrl}}">
+                    <p>{{item.name}}</p>
+                </a>
+            </li>
+		</ul>
+	</div>
+	<div class="class-item class-item-on tj" parentid="tj" item-id="2">
+		<p class="label">品牌专区</p>
+		<ul>
+			<li ng-repeat="item1 in data1">
+                <a href="javascript:Classify.goHotList('品牌专区-我厨')">
+                    <img src="{{item1.imgUrl}}">
+                    <p>{{item1.name}}</p>
+                </a>
+            </li>
+		</ul>
+	</div>
+    </div>
+    <div class="class-item classify class-item-on">
+        <div class="item-top" parentid="648">
+            <a href="javascript:Classify.goGoodsDetail('97a8cfdc-8956-4b66-b1ec-8d6326910f99')"><img src="http://img.i-kitchen.cn/upload/65291055-223b-4568-87f1-009777ce8c9a.jpg"></a>
+        </div>
+        <div class="item-top" parentid="691">
+            <a href="javascript:Classify.goGoodsDetail('88e3855e-ee31-49dd-b447-9bacdf90ba95')"><img src="http://img.i-kitchen.cn/upload/d0fd0837-cee1-4407-a51f-5cca442fd005.jpg"></a>
+        </div>
+        <div class="item-top" parentid="726">
+            <a href="javascript:Classify.goGoodsDetail('eb42bd22-2959-4003-853e-d1833701910b')"><img src="http://img.i-kitchen.cn/upload/29df38d9-a6f4-4568-877e-24d92fe99473.jpg"></a>
+        </div>
+        <div class="item-top" parentid="722">
+            <a href="javascript:Classify.goGoodsDetail('40eb86b1-cfba-47d7-a290-ab3e6a4886c9')"><img src="http://img.i-kitchen.cn/upload/d7b6fdf4-1148-4901-827d-6ed9af1c9327.jpg"></a>
+        </div>
+        <div class="item-top" parentid="739">
+            <a href="javascript:Classify.goGoodsDetail('32436405-a9ab-45be-85a9-599f07091735')"><img src="http://img.i-kitchen.cn/upload/40c58aa6-ff76-46ec-8133-6ef6983e351c.jpg"></a>
+        </div>
+        <div class="item-top" parentid="758">
+            <a href="javascript:Classify.goGoodsDetail('d197081d-ff03-4dae-ac63-a804715fd663')"><img src="http://img.i-kitchen.cn/upload/365893c8-2f4b-4c68-8c86-fb15d6f4e5a8.jpg"></a>
+        </div>
+        <div class="item-top" parentid="812">
+            <a href="javascript:Classify.goGoodsDetail('233a7e0a-e5b1-4fde-97f3-6035ee1c7a2f')"><img src="http://img.i-kitchen.cn/upload/0e89879d-bec8-4ac5-8bef-3ce9a93c9499.jpg"></a>
+        </div>
+        <div class="item-top" parentid="759">
+            <a href="javascript:Classify.goGoodsDetail('75175026-69dc-4ef3-9d4e-d6fbac37d7bb')"><img src="http://img.i-kitchen.cn/upload/7479c7ae-6f66-4b9e-9e3d-82416f17141b.jpg"></a>
+        </div>
+        <div class="item-top" parentid="806">
+            <a href="javascript:Classify.goGoodsDetail('0adf3921-9571-4b73-98e4-7154ffbf8ce0')"><img src="http://img.i-kitchen.cn/upload/30496ae4-2ae3-4fa9-a673-b40656a6cad9.jpg"></a>
+        </div>
+        <div class="item-top" parentid="1215">
+            <a href="javascript:Classify.goGoodsDetail('867ab7df-c68d-4ebf-86d8-fe8385f960e5')"><img src="http://img.i-kitchen.cn/upload/4c5663d8-cfab-4248-b242-3440dcc3601b.jpg"></a>
+        </div>
+        <ul>
+            <li ng-repeat="item2 in data2" parentid="{{item2.id}}" class="classify-li class-item-on">
+                <img src="{{item2.checkicon}}"/>
+                <p>{{item2.name}}</p>
+            </li>
+        </ul>
+    </div>
+</section>

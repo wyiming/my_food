@@ -1,0 +1,157 @@
+<div class="about_us" style="height: 1rem;background: #f7f7f7;line-height: 1rem;position: fixed;left: 0px;top: 0px;z-index: 15">
+    <a href="#/home" class="about_return"><</a>&nbsp;&nbsp;&nbsp; 疯狂秒杀<div class="fresh"><img src="img2/fresh.png"/></div>
+</div>
+<div class="big_img">
+    <img src="img2/111.jpg"/>
+</div>
+<ul class="kill_list">
+    <li>
+        <div>10:00</div>
+        <div>已结束</div>
+        <div class="tubiao"></div>
+    </li>
+    <li>
+        <div>12:00</div>
+        <div>已结束</div>
+        <div class="tubiao"></div>
+    </li>
+    <li>
+        <div>15:00</div>
+        <div>已结束</div>
+        <div class="tubiao"></div>
+    </li>
+    <li>
+        <div>19:00</div>
+        <div>已结束</div>
+        <div class="tubiao"></div>
+    </li>
+</ul>
+<div class="rule">
+    <div class="kill_end">
+        距本场结束<br>
+        02:01:12
+    </div>
+    <div class="rule_right">
+        <div>查看活动规则</div>
+    </div>
+</div>
+<ul class="rec1 rec">
+    <li ng-repeat="i in day">
+        <div class="neirong">
+            <div class="left"><img src="{{ i.img }} "/></div>
+            <div class="right">
+                <div class="msg_name">{{ i.name }}</div>
+                <div style="font-size: 0.25rem;">{{ i.specifics }}</div>
+                <div class="msg_price">
+                    <span style="font-size: 0.3rem;color: #ff0000"><span style="font-size: 0.25rem">￥</span>{{ i.price }}</span>
+                    <span style="font-size: 0.25rem;color:#666666;"><em>/原价：￥</em><span>{{ i.market_price }}</span></span>
+                </div>
+                <div class="msg_buy">￥{{ i.price }}抢购</div>
+                <div class="msg_count"><img src="{{ i.pm_desc }}"/></div>
+            </div>
+        </div>
+    </li>
+</ul>
+<ul class="rec2 rec">
+    <li ng-repeat="i in fruit">
+        <div class="neirong">
+            <div class="left"><img src="{{ i.img }} "/></div>
+            <div class="right">
+                <div class="msg_name">{{ i.name }}</div>
+                <div style="font-size: 0.25rem;">{{ i.specifics }}</div>
+                <div class="msg_price">
+                    <span style="font-size: 0.3rem;color: #ff0000"><span style="font-size: 0.25rem">￥</span>{{ i.price }}</span>
+                    <span style="font-size: 0.25rem;color:#666666;"><em>/原价：￥</em><span>{{ i.market_price }}</span></span>
+                </div>
+                <div class="msg_buy">立即购买</div>
+                <div class="msg_count"><img src="{{ i.pm_desc }}"/></div>
+            </div>
+        </div>
+    </li>
+</ul>
+<ul class="rec3 rec">
+    <li ng-repeat="i in drink">
+        <div class="neirong">
+            <div class="left"><img src="{{ i.img }} "/></div>
+            <div class="right">
+                <div class="msg_name">{{ i.name }}</div>
+                <div style="font-size: 0.25rem;">{{ i.specifics }}</div>
+                <div class="msg_price">
+                    <span style="font-size: 0.3rem;color: #ff0000"><span style="font-size: 0.25rem">￥</span>{{ i.price }}</span>
+                    <span style="font-size: 0.25rem;color:#666666;"><em>/原价：￥</em><span>{{ i.market_price }}</span></span>
+                </div>
+                <div class="msg_buy">立即购买</div>
+                <div class="msg_count"><img src="{{ i.pm_desc }}"/></div>
+            </div>
+        </div>
+    </li>
+</ul>
+<ul class="rec4 rec">
+    <li ng-repeat="i in meat">
+        <div class="neirong">
+            <div class="left"><img src="{{ i.img }} "/></div>
+            <div class="right">
+                <div class="msg_name">{{ i.name }}</div>
+                <div style="font-size: 0.25rem;">{{ i.specifics }}</div>
+                <div class="msg_price">
+                    <span style="font-size: 0.3rem;color: #ff0000"><span style="font-size: 0.25rem">￥</span>{{ i.price }}</span>
+                    <span style="font-size: 0.25rem;color:#666666;"><em>/原价：￥</em><span>{{ i.market_price }}</span></span>
+                </div>
+                <div class="msg_buy">立即购买</div>
+            </div>
+        </div>
+    </li>
+</ul>
+<div class="shopping_car">
+    <img src="img2/shopping.png"/>
+</div>        
+<script>
+    $(".list").remove();
+    $(".fresh").click(function(){
+        window.location.reload();
+    })
+    var kill;
+    $(".kill_list li").each(function(i){
+        $(".kill_list li").click(function(){
+            kill = $(".kill_list li").index(this);
+                $(".kill_list li").eq(i).css({
+                    "background":"#000000"
+                })
+                $(".rec").eq(i).hide();
+                $(".rec").eq(kill).show();
+                $(".tubiao").eq(i).css({
+                    "backgroundPosition":"-0.45rem"+" "+"0",
+                    "color":"#ffffff"
+                })
+                $(this).css({
+                    "background":"#fdd000"
+                })
+                $(".tubiao").eq(kill).css({
+                    "backgroundPosition":"0"+" "+"0",
+                    "color":"#000000"
+                })
+            })
+        })
+    app.controller("homeCtrl",function(){
+        var path1 = "http://www.vrserver.applinzi.com/aixianfeng/apimiaosha.php";
+        $http.get(path1).success(function(json){
+            $scope.day = json.data
+            console.log(json.data)
+        })
+        var path2 = "http://www.vrserver.applinzi.com/aixianfeng/apiyuding.php";
+        $http.get(path2).success(function(json){
+            $scope.fruit = json.product;
+        })
+//    饮料
+        var path3 = "http://www.vrserver.applinzi.com/aixianfeng/apimiaosha.php";
+        $http.get(path3).success(function(json){
+            $scope.drink = json.product;
+//            console.log(json)
+        })
+        var path4 = "http://www.vrserver.applinzi.com/aixianfeng/apihomehot.php";
+        $http.get(path4).success(function(json){
+            $scope.meat = json.data;
+//            console.log(json)
+        })
+    })
+</script>

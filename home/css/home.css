@@ -1,0 +1,247 @@
+.swiper-wrapper{
+    width: 100%;
+    float: left;
+}
+.swiper-slide img{
+    float: left;
+}
+.swiper-pagination span{
+    width: 0.2rem;
+    height: 0.2rem;
+}
+header{
+    position:fixed;
+    width:100%;
+    height:.9rem;
+    line-height:.9rem;
+    padding:0 .28rem;
+    background:#78c652;
+    z-index:2;top:0;left:0;
+    z-index: 6;
+}
+.logo{
+    width:1.5rem;
+    float:left
+}
+.logo img{
+    height: .5rem;
+    width: auto;
+    margin-left: .08rem;
+    margin-top: 0.2rem;
+    display: block;
+}
+
+.icon{
+    float: left;
+    width: 100%;
+    height: 1.7rem;
+}
+.list11{
+    overflow: hidden;
+}
+.list11 li{
+    width: 25%;
+    float: left;
+    font-size: 0.3rem;
+    text-align: center;
+}
+.list11 li div{
+    width: 100%;
+    height: 1.7rem;
+}
+.list11 li div img{
+    width: 100%;
+    height: 100%;
+}
+.addr{
+    width:3rem;
+    font-size:.3rem;
+    color:#fff;
+    text-align:center
+}
+.addr,.down-arr,.location{
+     float:left
+}
+.location{
+    margin-right:.2rem
+}
+.down-arr{
+    margin-left:.2rem
+}
+.addr img{
+    height:.3rem;
+    width:auto;
+    vertical-align:initial;
+}
+.addr-detail{
+    width:2rem;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    float:left;
+    height:.9rem
+}
+.search-btn{
+    width: .8rem;
+    float: left;
+    font-size: .26rem;
+    color: #666;
+    text-align: right;
+    margin-top: 0.1rem;
+    margin-left: 0.3rem;
+}
+.search-btn img{
+    width:.5rem;height:.5rem
+}
+.banner{
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-top: 0.9rem;
+}
+.home-detail{
+    width:100%;
+    position:absolute;
+    top:.9rem;
+    bottom:.9rem;
+    background:#fff
+}
+.swiper{
+    width:100%;
+    height:3.32rem
+}
+.swiper a img{
+    width:7.5rem;
+    height:3.32rem
+}
+.top-nav ul{
+    padding:.14rem 0 0 .14rem;
+    float:left
+}
+.top-nav ul li{
+    margin:0 .14rem .14rem 0;
+    float:left
+}
+.top-nav ul li,.top-nav ul li img{
+    width:1.7rem;height:1.7rem
+}
+.remind-msg{
+    height:.9rem;
+    float: left;
+    line-height:.76rem;
+    background:#f8f8f8
+}
+.remind-msg img{
+    width:7.5rem;
+    height:.76rem;
+    margin-bottom:.08rem;
+}
+.img-link{
+    background:#f8f8f8;
+    width: 100%;
+    float: left;
+}
+.img-link img{
+    width:6.4rem;
+    height:2.8rem;
+    float: left;
+    margin-bottom:.08rem
+}
+.img-link1 img{
+    width:100%;
+    height:100%;
+    margin:.28rem .28rem .2rem
+}
+.img-link:nth-child(7) img,.img-link:nth-child(15) img,.img-link:nth-child(20) img{
+    width:7.5rem;
+    height:.76rem;
+    margin-bottom:.08rem
+}
+.goods-list{
+	float: left;
+    padding-left: 0.1rem;
+}
+.goods-list ul{
+	overflow: hidden;
+}
+.goods-list ul li{
+    width:2rem;
+    margin-top:.28rem;
+    margin-right:.08rem;
+    float:left
+}
+.goods-list ul li img{
+    width:2rem;
+    height:2.26rem
+}
+.goods-name{
+   width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: .48rem;
+    font-size: .26rem;
+    line-height: .25rem;
+    padding-top: .08rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    color: #333;
+}
+.price-cart{
+    height:.54rem;
+    margin-top:.08rem
+}
+.price-ctl{
+    width: 1.4rem;
+    padding-left: 0.2rem;
+    float: left;
+}
+.market-price{
+    font-size:.24rem;
+    color:#999;
+    text-decoration:line-through;
+    line-height:.24rem;
+    height:auto;
+    min-height:.2rem
+}
+.price1{
+    font-size:.24rem;
+    color:#f96d16;
+    line-height:.3rem
+}
+.addCart{
+    width:.66rem;
+    height:.54rem;
+    line-height:.54rem;
+    float:right;
+    text-align:center
+}
+.addCart img{
+    width:.48rem!important;
+    height:.48rem!important;
+    float:left;
+    margin-left: -0.1rem;
+}
+.blank{
+	width: 100%;
+	height: 1rem;
+	float: left;
+}
+.price_span{
+    font-size: .24rem;
+    color: #999;
+    text-decoration: line-through;
+    line-height: .24rem;
+    height: auto;
+    min-height: .2rem;
+    float: left;
+}
+.price_span1{
+    font-size: .24rem;
+    color: #f96d16;
+    line-height: .3rem;
+    float: left;
+}

@@ -1,0 +1,445 @@
+<ul class="list" style="z-index: 25">
+    <li><div><img src="img3/tab-icons-after0.png"/></div><a href="#/">首页</a></li>
+    <li><div><img src="img3/tab-icon1.png"/></div><a href="#/market">分类</a></li>
+    <li><div><img src="img3/tab-icon3.png"/></div><a href="#/shopCar">购物车</a></li>
+    <li><div><img src="img3/tab-icon4.png"/></div><a href="#/mine">我的</a></li>
+</ul>
+<header>
+    <div class="logo">
+        <img src="img/wc-logo.png">
+    </div>
+    <div class="addr" id="chageAddr">
+        <span class="location"><img src="img/location-white.png"></span>
+        <p class="addr-detail">请填写地址</p>
+        <span class="down-arr"><img src="img/down-arr1.png"></span>
+    </div>
+    <div class="search-btn">
+        <a href="#/search"><img src="img/search-white.png"></a>
+    </div>
+</header>
+<div class="banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" ng-repeat="item in bigImg">
+                <a href="{{item.action.data.target}}"><img src="{{item.picUrl}}" style="width: 100%"/></a>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+<div class="icon">
+    <ul class="list11">
+        <li ng-repeat="nav in navImg">
+            <a href="{{nav.source}}"><div><img src="{{nav.imgUrl}}"/></div></a>
+        </li>
+    </ul>
+</div>
+<div class="goods-item-list" style="float: left;">
+    <div class="img-link" ng-repeat="link in imgLink | limitTo:21">
+        <a href="{{link.items[0].source}}">
+            <img lazy-src="{{link.items[0].imgUrl}}">
+        </a>
+    </div>
+    <div class="goods-list">
+        <ul>
+            <li>
+                <a href="javascript:HomePage.urlJumpType('2','59b9a882-0d48-4c6f-8a5e-78059238e5f9')">
+                    <img lazy-src="http://img.i-kitchen.cn/upload/b187a986-37c2-4faa-bb8f-70e27de0b269.jpg">
+                </a>
+                <div class="goods-name">杭白菜350g</div>
+                <div class="price-cart">
+                    <div class="price-ctl">
+                        <span class="price_span">￥</span><div class="market-price">2.99</div>
+                        <span class="price_span1">￥</span><div class="price1">0.99</div>
+                    </div>
+                    <div class="addCart" my-touch>
+                        <img lazy-src="img/addcart.png">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:HomePage.urlJumpType('2','0cd8f602-057b-4b63-ac89-81033ccf1c10')">
+                    <img lazy-src="http://img.i-kitchen.cn/upload/6aa4dd3d-8135-403b-8fea-398920ec3e32.jpg">
+                </a>
+                <div class="goods-name">鲜冻生活冻带鱼段400g</div>
+                <div class="price-cart">
+                    <div class="price-ctl">
+                        <div class="market-price"></div>
+                        <span class="price_span1">￥</span><div class="price1">22.5</div>
+                </div>
+                    <div class="addCart" my-touch>
+                        <img lazy-src="img/addcart.png">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:HomePage.urlJumpType('2','9a4b5eb0-98be-4abf-8f0b-eac55050f099')">
+                    <img lazy-src="http://img.i-kitchen.cn/upload/e5173d39-93be-44e3-8820-81255b686879.jpg">
+                </a>
+                <div class="goods-name">我厨优选猪里脊肉500g</div>
+                <div class="price-cart">
+                    <div class="price-ctl">
+                        <span class="price_span">￥</span><div class="market-price">26</div>
+                        <span class="price_span1">￥</span><div class="price1">21.9</div>
+                    </div>
+                    <div class="addCart" my-touch>
+                        <img lazy-src="img/addcart.png">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:HomePage.urlJumpType('2','025f78d1-79fd-49f4-bc50-6051fadac2a5')">
+                    <img lazy-src="http://img.i-kitchen.cn/upload/b96b3409-d38e-4fa7-8175-aa076873d5c7.jpg">
+                </a>
+                <div class="goods-name">湖南冰糖橙6粒装(单果95g以上）</div>
+                <div class="price-cart">
+                    <div class="price-ctl">
+                        <span class="price_span">￥</span><div class="market-price">8.8</div>
+                        <span class="price_span1">￥</span><div class="price1">6.9</div>
+                    </div>
+                    <div class="addCart" my-touch>
+                        <img lazy-src="img/addcart.png">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:HomePage.urlJumpType('2','50807436-71b8-4cb4-b475-9a9228507667')">
+                    <img lazy-src="http://img.i-kitchen.cn/upload/4fd70618-a7e5-4835-b1df-7ab96b83beb1.jpg">
+                </a>
+                <div class="goods-name">韩国原装进口延世牛奶（大原味）1000ml</div>
+                <div class="price-cart">
+                    <div class="price-ctl">
+                        <span class="price_span">￥</span><div class="market-price">33.6</div>
+                        <span class="price_span1">￥</span><div class="price1">29.8</div>
+                    </div>
+                    <div class="addCart" my-touch>
+                        <img lazy-src="img/addcart.png">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:HomePage.urlJumpType('2','88061997-ed89-42bc-a8ab-1d993a94c316')">
+                    <img lazy-src="http://img.i-kitchen.cn/upload/5caa230e-54a1-44de-9267-27b7db236849.jpg">
+                </a>
+                <div class="goods-name">龙凤经典黑芝麻汤圆518g</div>
+                <div class="price-cart">
+                    <div class="price-ctl">
+                        <div class="market-price"></div>
+                        <span class="price_span1">￥</span><div class="price1">29.9</div>
+                    </div>
+                    <div class="addCart" my-touch>
+                        <img lazy-src="img/addcart.png">
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="img-link" ng-click="HomePage.urlJumpType('1','http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=23')">
+        <img lazy-src="http://img.i-kitchen.cn/upload/a6ccd761-da4c-43b4-ba29-5c4e920f0987.jpg">
+    </div>
+    <div class="goods-list">
+        <ul>
+            <li>
+                <a href="javascript:HomePage.urlJumpType('2','74535583-2ff0-47fc-8e1e-30a399be64cc')">
+                    <img src="http://img.i-kitchen.cn/upload/4b2e5d09-31d4-4122-a1c6-ee76256e40b9.jpg"></a>
+                <div class="goods-name">净菜二人食套餐A</div>
+                <div class="price-cart">
+                    <div class="price-ctl">
+                        <span class="price_span">￥</span><div class="market-price">43.8</div>
+                        <span class="price_span1">￥</span><div class="price1">32</div>
+                    </div>
+                    <div class="addCart" my-touch>
+                        <img lazy-src="img/addcart.png"></div>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:HomePage.urlJumpType('2','b413c8db-1581-4584-8661-c9d0de1e19e0')">
+                    <img lazy-src="http://img.i-kitchen.cn/upload/ed1d1a26-5d65-4087-9877-704de990df1c.jpg"></a>
+                <div class="goods-name">荷裕薄盐三文鱼240g</div>
+                <div class="price-cart">
+                    <div class="price-ctl">
+                        <span class="price_span">￥</span><div class="market-price">55</div>
+                        <span class="price_span1">￥</span><div class="price1">35.9</div>
+                </div>
+                <div class="addCart" my-touch>
+                    <img lazy-src="img/addcart.png">
+                </div>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:HomePage.urlJumpType('2','6ca7cc7b-82a6-4e2d-9ed0-767307a329d0')">
+                    <img lazy-src="http://img.i-kitchen.cn/upload/04cf756d-4faa-484f-8332-4c2c26189f6e.jpg"></a>
+                <div class="goods-name">肋排块3cm200g</div>
+                <div class="price-cart">
+                    <div class="price-ctl">
+                        <span class="price_span">￥</span><div class="market-price">14.9</div>
+                        <span class="price_span1">￥</span><div class="price1">13.9</div>
+                    </div>
+                    <div class="addCart" my-touch>
+                        <img lazy-src="img/addcart.png">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:HomePage.urlJumpType('2','e623a4c6-00ae-47d9-8460-61788368b619')">
+                    <img lazy-src="http://img.i-kitchen.cn/upload/4276eaff-ba39-4dc5-ac96-37f4b826ba8d.jpg">
+                </a>
+                <div class="goods-name">进口香蕉6根</div>
+                <div class="price-cart">
+                    <div class="price-ctl">
+                        <span class="price_span">￥</span><div class="market-price">14.9</div>
+                        <span class="price_span1">￥</span><div class="price1">8.8</div>
+                    </div>
+                    <div class="addCart" my-touch>
+                        <img lazy-src="img/addcart.png">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:HomePage.urlJumpType('2','000d6ed6-2eb4-46de-92e1-c6460af8616f')">
+                    <img lazy-src="http://img.i-kitchen.cn/upload/76526bd0-d13b-412b-b925-34cf977ba188.jpg">
+                </a>
+                <div class="goods-name">港式仔仔鸭500g</div>
+                <div class="price-cart">
+                    <div class="price-ctl">
+                        <div class="market-price"></div>
+                        <span class="price_span1">￥</span><div class="price1">29.9</div>
+                    </div>
+                    <div class="addCart" my-touch>
+                        <img lazy-src="img/addcart.png">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:HomePage.urlJumpType('2','8d8b1d2d-83a7-42f4-aab9-c6025350c3b5')">
+                    <img lazy-src="http://img.i-kitchen.cn/upload/521f21c5-037e-4a51-be87-f3c9d01ec041.jpg"></a>
+                <div class="goods-name">光明牌980ml纯鲜牛奶（低温）</div>
+                <div class="price-cart">
+                    <div class="price-ctl">
+                        <span class="price_span">￥</span><div class="market-price">16.9</div>
+                        <span class="price_span1">￥</span><div class="price1">13.8</div>
+                    </div>
+                    <div class="addCart" my-touch>
+                        <img lazy-src="img/addcart.png">
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="img-link" ng-click="HomePage.urlJumpType('3','时令和新品推荐')">
+        <img lazy-src="http://img.i-kitchen.cn/upload/a60f7847-84c0-4196-99c2-e1f8a32c76c9.jpg">
+    </div>
+    <div class="goods-list">
+        <ul>
+            <li>
+                <a href="javascript:HomePage.urlJumpType('2','e86db2c4-3bb6-4ce2-b0e1-1fc382593e1a')">
+                    <img lazy-src="http://img.i-kitchen.cn/upload/95e4ecf0-0370-4791-9c90-95e60bdc3fd2.jpg"></a>
+                <div class="goods-name">清美饺子皮1000g</div>
+                <div class="price-cart">
+                <div class="price-ctl">
+                    <div class="market-price"></div>
+                    <span class="price_span1">￥</span><div class="price1">5.9</div>
+                </div>
+                <div class="addCart" my-touch>
+                    <img lazy-src="img/addcart.png">
+                </div>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:HomePage.urlJumpType('2','d197081d-ff03-4dae-ac63-a804715fd663')">
+                    <img lazy-src="http://img.i-kitchen.cn/upload/4d398d57-dbf1-45c8-9130-eba7ac622b52.jpg"></a>
+                <div class="goods-name">原只雪蟹腿肉200g</div>
+                <div class="price-cart">
+                    <div class="price-ctl">
+                        <div class="market-price"></div>
+                        <span class="price_span1">￥</span><div class="price1">58.9</div>
+                    </div>
+                    <div class="addCart" my-touch>
+                        <img lazy-src="img/addcart.png">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:HomePage.urlJumpType('2','51ecf6ce-34da-44ef-a56a-e044f7073730')">
+                    <img lazy-src="http://img.i-kitchen.cn/upload/f2293092-5884-467a-b945-9d4607cb5a70.jpg">
+                </a>
+                <div class="goods-name">荷美尔Hormel 超值精选培根 150g</div>
+                <div class="price-cart">
+                    <div class="price-ctl">
+                        <div class="market-price"></div>
+                        <span class="price_span1">￥</span><div class="price1">19.9</div>
+                    </div>
+                    <div class="addCart" my-touch>
+                        <img lazy-src="img/addcart.png">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:HomePage.urlJumpType('2','29fc01a5-626f-4535-9760-d713b79a8b68')">
+                    <img lazy-src="http://img.i-kitchen.cn/upload/780aa304-7459-4382-80a1-0fa3b0a47569.jpg"></a>
+                <div class="goods-name">美国金色卡罗拉苹果2粒(单果165g以上)</div>
+                <div class="price-cart">
+                    <div class="price-ctl">
+                        <span class="price_span">￥</span><div class="market-price">28</div>
+                        <span class="price_span1">￥</span><div class="price1">19.9</div>
+                    </div>
+                    <div class="addCart" my-touch>
+                        <img lazy-src="img/addcart.png">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:HomePage.urlJumpType('2','b7e67884-fa69-4fe5-a105-2fea4c9fee2d')">
+                    <img lazy-src="http://img.i-kitchen.cn/upload/8530d608-e121-49c9-945e-4432e52420af.jpg"></a>
+                <div class="goods-name">华英精选整鸭1400g</div>
+                <div class="price-cart">
+                    <div class="price-ctl">
+                        <div class="market-price"></div>
+                        <span class="price_span1">￥</span><div class="price1">29.9</div>
+                    </div>
+                    <div class="addCart" my-touch>
+                        <img lazy-src="img/addcart.png">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:HomePage.urlJumpType('2','418512e2-4808-4a33-95d0-72d9861d8643')">
+                    <img lazy-src="http://img.i-kitchen.cn/upload/1adf7216-02b7-468d-a561-5916abfabd3b.jpg"></a>
+                <div class="goods-name">四海急冻墨鱼味鱼丸170g</div>
+                <div class="price-cart">
+                    <div class="price-ctl">
+                        <span class="price_span">￥</span><div class="market-price">12.9</div>
+                        <span class="price_span1">￥</span><div class="price1">10.9</div>
+                    </div>
+                    <div class="addCart" my-touch>
+                        <img lazy-src="img/addcart.png">
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="img-link" ng-click="HomePage.urlJumpType('3','本周新菜')">
+        <img lazy-src="http://img.i-kitchen.cn/upload/34769831-256d-4005-a2b2-9eed63aa7e0c.jpg">
+    </div>
+    <div class="goods-list">
+        <ul>
+            <li>
+                <a href="javascript:HomePage.urlJumpType('2','c7f79b11-3a87-4d1b-99ea-f2b1b3d1fddd')">
+                    <img lazy-src="http://img.i-kitchen.cn/upload/19a2bfd2-8094-4bee-8607-f7d5722a6ee3.jpg">
+                </a>
+                <div class="goods-name">锦绣墨鱼片</div>
+                <div class="price-cart">
+                    <div class="price-ctl">
+                        <div class="market-price"></div>
+                        <span class="price_span1">￥</span><div class="price1">29</div>
+                    </div>
+                    <div class="addCart" my-touch>
+                        <img lazy-src="img/addcart.png">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:HomePage.urlJumpType('2','a76bbd3e-0c80-4ce6-ba6c-e79d1fd9bf37')">
+                    <img lazy-src="http://img.i-kitchen.cn/upload/5754fe51-f4e9-492b-acbe-f4e0b1af5355.jpg">
+                </a>
+                <div class="goods-name">全家欢乐全家福锅仔</div>
+                <div class="price-cart">
+                    <div class="price-ctl">
+                        <div class="market-price"></div>
+                        <span class="price_span1">￥</span><div class="price1">29</div>
+                    </div>
+                    <div class="addCart" my-touch>
+                        <img lazy-src="img/addcart.png">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:HomePage.urlJumpType('2','0b475d3e-2c4c-46a9-981d-ff2bc3a83504')">
+                    <img lazy-src="http://img.i-kitchen.cn/upload/6772f3e3-045e-4fa8-83ea-8891bcf3bb41.jpg">
+                </a>
+                <div class="goods-name">如意双菇烩鲜贝柱</div>
+                <div class="price-cart">
+                    <div class="price-ctl">
+                        <div class="market-price"></div>
+                        <span class="price_span1">￥</span><div class="price1">32</div>
+                    </div>
+                    <div class="addCart" my-touch>
+                        <img lazy-src="img/addcart.png">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:HomePage.urlJumpType('2','f7afea87-a5ef-43c4-b88f-a1bdfa76928e')">
+                    <img lazy-src="http://img.i-kitchen.cn/upload/c561bc7f-4506-4a2f-b042-7b9bbc3a1dbb.jpg"></a>
+                <div class="goods-name">金玉满堂烩虾仁</div>
+                <div class="price-cart"><div class="price-ctl">
+                    <div class="market-price"></div>
+                    <span class="price_span1">￥</span><div class="price1">28</div>
+                </div>
+                    <div class="addCart" my-touch>
+                        <img lazy-src="img/addcart.png"></div>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:HomePage.urlJumpType('2','933e4fb9-b38b-4ce0-ae87-edb71fa19951')">
+                    <img lazy-src="http://img.i-kitchen.cn/upload/b36a5b73-1d6e-44b0-a1fb-66612b256cd2.jpg"></a>
+                <div class="goods-name">吉祥如意菜</div>
+                <div class="price-cart">
+                    <div class="price-ctl">
+                        <div class="market-price"></div>
+                        <span class="price_span1">￥</span><div class="price1">15</div>
+                    </div>
+                    <div class="addCart" my-touch>
+                        <img lazy-src="img/addcart.png">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:HomePage.urlJumpType('2','ab36a0ef-2f66-4c18-a709-246ceccc6ec5')">
+                    <img lazy-src="http://img.i-kitchen.cn/upload/89a16cdd-f7c1-4f7f-b8c3-299b8bb7f959.jpg"></a>
+                <div class="goods-name">雪菜笋丁</div>
+                <div class="price-cart">
+                    <div class="price-ctl">
+                        <div class="market-price"></div>
+                        <span class="price_span1">￥</span><div class="price1">7.9</div>
+                    </div>
+                    <div class="addCart" my-touch>
+                        <img lazy-src="img/addcart.png"></div>
+                    </div>
+            </li>
+        </ul>
+    </div>
+    <div class="remind-msg" ng-click="HomePage.urlJumpType('4','')">
+        <img lazy-src="http://img.i-kitchen.cn/upload/6c8d42c1-52e3-4115-9419-8d11325e567f.jpg">
+    </div>
+    <div class="img-link" ng-click="HomePage.urlJumpType('1','http://wmall.wochu.cn/h5/activity/html/springFestival.html')">
+        <img lazy-src="http://img.i-kitchen.cn/upload/08ba63cb-b377-49ad-9f4d-ac1143bbe397.jpg">
+    </div>
+    <div class="img-link" ng-click="HomePage.urlJumpType('1','http://wmall.wochu.cn/h5/activity/html/familyFeast.html')">
+        <img lazy-src="http://img.i-kitchen.cn/upload/208b5c17-8485-4ce4-a1a2-a092aef24da2.jpg">
+    </div>
+    <div class="img-link" ng-click="HomePage.urlJumpType('1','http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=18')">
+        <img lazy-src="http://img.i-kitchen.cn/upload/fe9f1abd-34cc-4092-bdb9-f86afe8bed4e.jpg">
+    </div>
+    <div class="img-link" ng-click="HomePage.urlJumpType('1','http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=24')">
+        <img lazy-src="http://img.i-kitchen.cn/upload/b4b8e5a3-4363-4eb0-a5fa-4a4d498b38c1.jpg">
+    </div>
+    <div class="img-link" ng-click="HomePage.urlJumpType('1','http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=29')">
+        <img lazy-src="http://img.i-kitchen.cn/upload/0437af21-a7e2-4d1a-8dc0-e9e7c23b9686.jpg">
+    </div>
+    <div class="img-link" ng-click="HomePage.urlJumpType('1','http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=2')">
+        <img lazy-src="http://img.i-kitchen.cn/upload/0c3d6111-4469-472d-9c10-b9bc4c9a79da.jpg">
+    </div>
+    <div class="img-link" ng-click="HomePage.urlJumpType('1','http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=30')">
+        <img lazy-src="http://img.i-kitchen.cn/upload/2dfd9813-be44-4232-8c7b-1044c3c02b56.jpg">
+    </div>
+    <div class="img-link" ng-click="HomePage.urlJumpType('1','http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=27')">
+        <img lazy-src="http://img.i-kitchen.cn/upload/7d4722e9-9667-4f01-bf7d-a481ca6a7f7e.jpg">
+    </div>
+    <div class="img-link" ng-click="HomePage.urlJumpType('1','http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=26')">
+        <img lazy-src="http://img.i-kitchen.cn/upload/2ef004b1-3982-4610-b0d8-8529eb2852de.jpg">
+    </div>
+</div>
+<div class="blank"></div>
+   
+  
